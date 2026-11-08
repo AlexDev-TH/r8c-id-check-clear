@@ -1,0 +1,29 @@
+# Build outputs
+build/
+*.exe
+*.obj
+*.res
+*.pdb
+
+# Local logs and temporary files
+logs/
+temp.json
+
+# Local firmware images and test vectors
+*.bin
+*.mot
+tests/images/
+
+# Legacy local activation material (not used by the open-source build)
+keygen/
+build-keygen.ps1
+license.key
+hwid.txt
+src/license.cpp
+src/license.h
+src/license_core.h
+src/license_pubkey.h
+
+# OS files
+Thumbs.db
+Desktop.ini
